@@ -22,7 +22,7 @@ HTML 기본 학습
     - sul3
     
  ```
- sing Sysetem. IO ;
+ using Sysetem. IO ;
  
  namespace Hellloworldapp(
  public class program(
