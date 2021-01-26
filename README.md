@@ -53,9 +53,9 @@ HTML 기본 학습
  
  참조링크
  -------
- - [Microsoft](https://www.microsoft.com)
- - [Naver](https://www.naver.com)
- - [Oracle](https://www.oracle.com)
+ - [Microsoft](https://www.microsoft.com "마이크로소프트")
+ - [Naver](https://www.naver.com "네이버")
+ - [Oracle](https://www.oracle.com "오라클")
  
  
 -----------
