@@ -16,8 +16,8 @@ HTML 기본 학습
 - HTML 역사
 - HTML5
 
-* ul3
-+ ul4
+  * ul3
+  * ul4
 -----------
 
 ## CSS3
