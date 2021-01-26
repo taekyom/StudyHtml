@@ -21,13 +21,13 @@ HTML 기본 학습
     - sul2
     - sul3
     
- ```CS
+ ```CSharp
  using Sysetem. IO ;
  
  namespace Hellloworldapp(
  public class program(
  public static void main(String[] args) (
- Console.Writtenline("Hello,world!")
+ Console.Writtenline("Hello,world!");
    )
   )
  )
