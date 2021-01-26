@@ -21,7 +21,7 @@ HTML 기본 학습
     - sul2
     - sul3
     
- ```java
+ ```javascript
  using Sysetem. IO ;
  
  namespace Hellloworldapp(
