@@ -16,7 +16,7 @@ HTML 기본 학습
 - *HTML 역사*
 - **HTML5**
 
-  * __ul3
+  * **ul3**
   * ~~ul4~~
     - sul2
     - sul3
