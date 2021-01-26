@@ -33,7 +33,8 @@ HTML 기본 학습
  )
  ```
  
- ![실행결과](https://github.com/taekyom/StudyHtml/blob/main/ref_images/console%20result.png "실행결과")
+ 실행결과
+ ![실행결과](https://github.com/taekyom/StudyHtml/blob/main/ref_images/console%20result.png)
  
  
  참조링크
