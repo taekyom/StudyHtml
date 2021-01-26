@@ -26,7 +26,7 @@ HTML 기본 학습
 ## CSS3
 CSS3 기본 학습
 
->CSS is cascading style sheets.
+>CSS is Cascading Style Sheets.
 
 -----------
 
