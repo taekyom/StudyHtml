@@ -13,10 +13,10 @@ HTML 기본 학습
 3. HTML5
 
 - ~Hyper Text Markup Language 정의~
-- _HTML 역사
-- __HTML5
+- *HTML 역사*
+- **HTML5**
 
-  * **ul3**
+  * __ul3
   * ~~ul4~~
     - sul2
     - sul3
