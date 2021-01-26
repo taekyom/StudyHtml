@@ -34,8 +34,8 @@ HTML 기본 학습
  ```
  
  실행결과
- ![실행결과](https://github.com/taekyom/StudyHtml/blob/main/ref_images/console%20result.png "실행결과")
- ![실행결과](ref_images/console%20result.png "실행결과")
+ ![실행결과](https://github.com/taekyom/StudyHtml/blob/main/ref_images/console%20result.png "절대경료")
+ ![실행결과](ref_images/console%20result.png "상대경로")
  
  참조링크
  -------
