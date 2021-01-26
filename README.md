@@ -3,8 +3,6 @@ HTML5, CSS3, JS 학습 리포지토리
 
 -----------
 
-<br/><br/><br/>
-
 ## HTML5
 HTML 기본 학습
 
