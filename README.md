@@ -21,13 +21,13 @@ HTML 기본 학습
     - sul2
     - sul3
     
- ```javascript
+ ```CS
  using Sysetem. IO ;
  
  namespace Hellloworldapp(
  public class program(
- public static void main(string[] args) (
- console. writtenline("Hello,world!")
+ public static void main(String[] args) (
+ Console.Writtenline("Hello,world!")
    )
   )
  )
