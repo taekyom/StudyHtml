@@ -20,6 +20,11 @@ HTML 기본 학습
   * ~~ul4~~
     - sul2
     - sul3
+ 
+ -[x] 학습하기
+ -[] 복습하기
+    
+    
     
  ```CSharp
  using Sysetem. IO ;
