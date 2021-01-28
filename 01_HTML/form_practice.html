@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form radio</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="username">이름</label></td>
+                <td><input id="username" type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>성별</td>
+                <td>
+                    <input id="man" type="radio" name="gender" value="m">
+                    <label for="man">남자</label>
+                    <input id="woman" type="radio" name="gender" value="w">
+                    <label for="woman">여자</label>
+                </td>
+            </tr>
+        </table>
+        
+        <input type="submit" value="가입"><br>
+        <h4>맛있는 과일</h4>
+        <select>
+            <option>딸기</option>
+            <option>수박</option>
+            <option>바나나</option>
+            <option>귤</option>
+        </select>
+        <select>
+            <optgroup label="HTML5">
+                <option>Multimedia Tag</option>
+                <option>Connectivity</option>
+                <option>Device Access</option>
+            </optgroup>
+        <optgroup label="CSS3">
+            <option>Animation</option>
+            <option>3D Transform</option>
+        </select>  
+        
+        <fieldset>
+            <legend>회원가입</legend>
+            <table>
+                <tr>
+                    <td><label for="name">이름</label></td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">이메일</label></td>
+                    <td><input id="mail" type="email"></td>
+                </tr>
+            </table>
+            <input type="submit" value="로그인">
+        </fieldset>    
+        
+    </form>
+</body>
+</html>
