@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        body>div {
+            width: 400px;
+            height:100px;
+            border: 3px solid black;
+            /*border-color, border-style, borde-width를 한번에 쓴 것*/
+
+            position: relative;
+            overflow: hidden;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+
+        }
+        .box:nth-child(1){
+            background-color: red;
+            left: 10px;
+            top: 10px;
+            z-index: 100;
+        }
+        .box:nth-child(2){
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 50;
+        }
+        .box:nth-child(3){
+            background-color: blue;
+            left: 90px; 
+            top: 90px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>lorem ipsum</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>lorem ipsum</h1>
+</body>
+</html>
