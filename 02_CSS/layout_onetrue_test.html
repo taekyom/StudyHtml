@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One true layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0 auto;
+            width: 800px;
+        }
+        #header{
+            overflow: hidden;
+            background-color: greenyellow;
+        }
+        #section{
+            overflow: hidden;
+        }
+        #aside {
+            float: left;
+            width: 200px;
+            background-color: cadetblue;
+        }
+        #content{
+            float: left;
+            width: 600px;
+            background-color: darksalmon;
+        }
+        #footer{
+            background-color: gold;
+        }
+        .epllipsis{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="epllipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta eaque deserunt aspernatur est sequi iure officiis amet quibusdam accusamus velit accusantium optio adipisci provident sed impedit, enim fugiat delectus!</div>
+        <div id="section">
+         <div id="aside" class="epllipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem facilis deserunt quae a, perferendis cumque minima sint alias reprehenderit. Quis laborum perspiciatis ex illum, provident incidunt pariatur aperiam architecto!</div>
+         <div id="content" class="epllipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem facilis deserunt quae a, perferendis cumque minima sint alias reprehenderit. Quis laborum perspiciatis ex illum, provident incidunt pariatur aperiam architecto!</div>
+        </div>
+         <div id="footer" class="epllipsis"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat velit adipisci nobis at voluptate quisquam, nemo nulla dolor in beatae tempora aut, perspiciatis, veritatis culpa. Pariatur accusamus fugiat magnam iure.</div>
+    </div> 
+</body>
+</html>
