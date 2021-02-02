@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+    <script>
+        // //로드이벤트 //구세대 이용
+        // window.onload=function(){
+
+        // }
+
+        //jQuery 이후 바뀐 로드 이벤트 
+        $(document).ready(function () {
+            // alert('Hello World!');
+
+             $('h1').css('background-color', 'black');
+             $('h1').css('color', 'white');
+        
+            console.log($('script').attr('src'));
+
+            //img속성 변경
+            // $('img').attr('alt', 'jQuery 라이브버리로 속성 지정');
+            // $('img').attr('src', 'https://placehold.it/200x200');
+            // $('img').attr('width', '100');
+
+            // //위의 코드와 같은데 더 간편함
+            // $('img').attr({
+            //     alt : 'jQuery 라이브러리를 사용한 속성 지정',
+            //     src : 'https://placehold.it/200x200',
+            //     width : 100
+            // });
+
+            $('img').attr({
+                alt : 'jQuery 라이브러리를 사용한 속성 지정',
+                src : function (index) {
+                    //변수를 선언, index에는 자동으로 0부터 img 개수만큼 들어감
+                    var size = (index + 1) * 100;
+                    //반환
+                    return 'https://placehold.it/' + size + 'x100';
+                }
+            });
+
+            //box 클래스 사용
+            $('.box').css({
+                float : 'left',
+                margin : 10,
+                width : 100,
+                heigth : 100,
+                backgroundColor : 'red'
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>jQuery</h1>
+    <h1>Hello, World</h1>
+    <h1>Tuesday</h1>
+    <br>
+    <img>
+    <img>
+    <img>
+    <br>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+
+</html>
