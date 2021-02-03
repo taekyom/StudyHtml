@@ -12,14 +12,16 @@ HTML 기본 학습
 -----------
 
 ## CSS3
-CSS3 기본 학습
+CSS3 기본 학습<br>
 [CSS3 소스](https://github.com/taekyom/StudyHtml/tree/main/02_CSS)
 
 
 -----------
 
 ## Javascript 
-Javascript 기본 학습
+Javascript 기본 학습<br>
+[JS 소스](https://github.com/taekyom/StudyHtml/tree/main/03_Javascript)
+
 
 -----------
 
