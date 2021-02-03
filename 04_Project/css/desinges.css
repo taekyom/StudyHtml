@@ -4,6 +4,7 @@
     margin-top: 10px;
     padding: 15px 15px 0;
     font-size: 11px;
+    border-radius: 10px;
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
@@ -28,6 +29,9 @@
     float: left;
     width: 150px;
     margin-left: 10px;
+}
+.paper-holder img {
+    border-radius: 6px;
 }
 
 /* 섹션 */
