@@ -20,7 +20,7 @@
 .paper-content {
     margin: 10px -15px 0 -15px;
     padding: 10px 15px;
-    background-color:darkgray;
+    background-color:rgba(197, 197, 197, 0.658);
     overflow: hidden;
 }
 
