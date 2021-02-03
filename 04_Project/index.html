@@ -31,16 +31,17 @@
                 });
             });
             // 라이트박스
-            $(".paper").click(function() { showLightBox(); });
+            $(".paper").click(function() { showLightBox(this); });
             $("#darken-background").click(function() { hideLightBox(); });
             // 라이트박스 이벤트 서포트 // 하얀영역을 클릭해도 라이트박스가 꺼지는 것을 방지
             $("#lightbox").click(function (event) {
                event.stopPropagation();
             });
         });
-
-        function showLightBox() {
-            $("#ramdom-image").attr({
+        //그리드 내에서 선택한 이미지 나오게 하기
+        function showLightBox(obj) {
+            var img_src = obj.getElementsByTagName("img")[0].src;
+            $("#random-image").attr({
                 src: function() {
                     var rnd_height = 500 + Math.floor(Math.random() * 100);
                     return "https://placekitten.com/600/" + rnd_height;
@@ -377,7 +378,7 @@
                 </div>
             </div>
             <hr class="lightbox-splitter">
-            <img id='ramdom-image' src="https://placekitten.com/600/750">
+            <img id='random-image' src="https://placekitten.com/600/750">
         </div>
     </div>
     <footer id="main-footer"></footer>

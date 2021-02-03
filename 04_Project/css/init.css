@@ -6,7 +6,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 img {
@@ -18,5 +18,5 @@ li {
 }
 
 body {
-    background: #f7f5f5;
+    background-color: rgba(228, 215, 174, 0.842);
 }
