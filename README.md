@@ -33,6 +33,6 @@ Javascript 기본 학습<br>
 
 #### 반응형 웹 그리드 레이아웃 웹 페이지 실습
 ![결과1](https://github.com/taekyom/StudyHtml/blob/main/ref_images/전체화면.png "전체레이아웃")
-![결과2](https://github.com/taekyom/StudyHtml/blob/main/ref_images/%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B0%95%EC%8A%A4%20%ED%99%9C%EC%84%B1%ED%99%94.png "팝업레이아웃")
+![결과2](https://github.com/taekyom/StudyHtml/blob/main/ref_images/라이트박스%20활성화.png "팝업레이아웃")
 
 
