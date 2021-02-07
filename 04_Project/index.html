@@ -31,17 +31,17 @@
                 });
             });
             // 라이트박스
-            $(".paper").click(function() { showLightBox(); });
-            $("#darken-background").click(function() { hideLightBox(); });
+            $(".paper").click(function () { showLightBox(); });
+            $("#darken-background").click(function () { hideLightBox(); });
             // 라이트박스 이벤트 서포트 // 하얀영역을 클릭해도 라이트박스가 꺼지는 것을 방지
             $("#lightbox").click(function (event) {
-               event.stopPropagation();
+                event.stopPropagation();
             });
         });
 
         function showLightBox() {
             $("#random-image").attr({
-                src: function() {
+                src: function () {
                     var rnd_height = 500 + Math.floor(Math.random() * 100);
                     return "https://placekitten.com/600/" + rnd_height;
                 }
@@ -54,6 +54,8 @@
             $("#darken-background").hide();
             $("body").css('overflow', 'auto'); // 정확한 값
         }
+
+
     </script>
 </head>
 
@@ -65,18 +67,18 @@
                 <input type="submit" class="input-submit" value="검색">
             </form>
         </div>
-        <h1 class="header-title">Interest</h1>
+        <h1 class="header-title">CATS SAVE THE WORLD!</h1>
         <div class="header-menu">
             <ul class="outer-menu">
                 <li>
                     <a href="#">정보</a>
                     <ul class="inner-menu">
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">페이지소개</a></li>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">슬라이드쇼</a></li>
+                        <li><a href="#">갤러리</a></li>
                     </ul>
                 </li>
             </ul>
@@ -84,10 +86,9 @@
                 <li>
                     <a href="#">사용자</a>
                     <ul class="inner-menu">
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
                     </ul>
                 </li>
             </ul>
@@ -105,262 +106,245 @@
     <section id="main-section">
         <div class="paper">
             <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/328"></a>
+                <a><img width="190" src="images/고양이01.jpg"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">고양이</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">고양이가 아니라 사슴이네! 자꾸 내 맘을 녹용!</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="https://placekitten.com/190/200"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">고양이가 세상을 구한다</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">너한테 풀 냄새가 나는 거 같아! 원더풀!</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="https://placekitten.com/190/256"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">떼걸룩</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">우리 고양이는 3개 국어를 할 줄 알지! 고양어, 귀여어, 잘생겼어!</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/249"></a>
+                <a><img width="190" src="images/고양이02.jpeg"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">고먐미</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">귀엽다...미쳐...심장을 짓밟고가네... 심장이 호떡됨...</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/324"></a>
+                <a><img width="190" src="images/고양이03.jpg"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">애옹이</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text"> 커다란 눈에 조목조목한 코에 귀염뽀짝한 이목구비까지....고양이는 대체 어느 별에서 내려온 천사인가요..............</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="https://placekitten.com/190/186"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">나만 고양이 없어</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">야 너 때문에 전쟁났어! 사랑스러War 귀여War</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="https://placekitten.com/190/192"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">장래희망:냥집사</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/258"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/256"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/182"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/182"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/328"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/328"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/200"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/200"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/215"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/215"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/176"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-            </div>
-        </div>
-        <div class="paper">
-            <div class="paper-holder">
-                <a><img width="190" src="https://placekitten.com/190/176"></a>
-            </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
-            <div class="paper-content">
-                <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
-                </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">대낮부터 보름달이 떴나해서 보니까 제 광대였지 뭐예요?</p>
             </div>
         </div>
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="https://placekitten.com/190/324"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">귀여워</p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placekitten.com/30/30">
+                    <img src="images/love (1).png">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
+                <p class="paper-text">저희 고양이 보고 가세요 귀엽죠 뭐요 자랑이예요</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이09.webp"></a>
+            </div>
+            <p class="paper-description">아파트 뿌셔</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">고양이 너무 귀여워서 벽 뿌시다가 우리집 원룸 됐어!!</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이07.webp"></a>
+            </div>
+            <p class="paper-description">냥님</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">앗...귀여워서 버틸수가 없다...<br><br><br> ●▅▇█▇▆▅▄▇</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="https://placekitten.com/190/182"></a>
+            </div>
+            <p class="paper-description">나도 냥집사할래</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">고양이는 Beautiful이란 단어의 e와 u를 뺀 그런 존재야 "이유없는 아름다움"</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이10.webp"></a>
+            </div>
+            <p class="paper-description">츄르 좀 드릴까요?</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">고양이 좋아하는 사람 접어
+                    한반도가 반으로 접히기 시작했다......
+                </p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이11.webp"></a>
+            </div>
+            <p class="paper-description">뾱뾱</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">고양이 영어 이름은 이제 조지나 부시야 내 마음을 조지고 부시니까</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이12.webp"></a>
+            </div>
+            <p class="paper-description">고양이 사랑해</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">한국은 4면이 바다야! 동해, 서해, 남해, 고양이 사랑해!</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이13.jpg"></a>
+            </div>
+            <p class="paper-description">식빵자세</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">너 진짜 별로다 내 마음 속에 별로⭐</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이14.jpg"></a>
+            </div>
+            <p class="paper-description">개냥이</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">야 그거 알아? 너무 귀여운걸 봐서 기분이 좋아지면 단기 기억상실증이 걸린대~ㅋㅋ
+                    어이없지 않아? 뭔 기억을 잃어ㅋㅋㅋㅋ야 그거 알아? 너무 귀여운걸 봐서 기분이 좋아지면 단기 기억상실증이 걸린대~ㅋㅋ 어이없지 않아? 뭔 기억을 잃어ㅋㅋㅋㅋ</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이15.jpg"></a>
+            </div>
+            <p class="paper-description">집냥이</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">귀여워서 돌아버려 나 지금 풍차야..!</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이16.jpg"></a>
+            </div>
+            <p class="paper-description">take a look</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">강이 보이면 리버뷰, 바다가 보이면 오션뷰, 고양이가 보이면 알라뷰,,❤❤❤</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="https://placekitten.com/190/176"></a>
+            </div>
+            <p class="paper-description">고양이는 왜 이렇게 귀여울까?</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">이제 '가나다라마바사'가 아니라 '가나다라마바'로 바꼈대요...내'사'랑 '다' 줬으니까...</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/고양이08.webp"></a>
+            </div>
+            <p class="paper-description">냥냥펀치</p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="images/love (1).png">
+                </a>
+                <p class="paper-text">고양이는 MBTI검사하면 Cute나온다며?</p>
             </div>
         </div>
     </section>
@@ -368,12 +352,14 @@
         <div id="lightbox">
             <div class="user-information">
                 <a class="user-information-image" href="#">
-                    <img src="https://placekitten.com/70/70">
+                    <img src="images/pawprints (1).png">
                 </a>
                 <div class="user-information-text">
-                    <h3>User</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua</p>
+                    <h3>태경님</h3>
+                    <p>앗...귀여워서 버틸수가 없다...
+
+
+                        ●▅▇█▇▆▅▄▇</p>
                 </div>
             </div>
             <hr class="lightbox-splitter">

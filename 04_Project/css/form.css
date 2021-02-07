@@ -15,14 +15,13 @@
 
 .header-title {
     position: absolute;
-    width: 200px;
-    height: 40px;
     left: 50%;
-    margin-left: -100px;
-    background: url('../images/logo.png');
-    background-repeat: no-repeat;
-    text-indent: -9999px;
+    margin-left: -180px;
+    font-size: xx-large;
+    color: blueviolet;
+    
 }
+
 
 /* 풀다운 메뉴 */
 .outer-menu {
@@ -39,7 +38,7 @@
 }
 
 .outer-menu:hover {
-    background: #f0b20670;
+    background: #3fc1f570;
 }
 
 .inner-menu {
@@ -64,7 +63,7 @@
 /* 네비게이션 메뉴 */
 #main-navigation {
     height:33px;
-    background: #a8e9a081;
+    background: #e5bff781;
     border-top: 1px solid #cfcaca;
     box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.4);
 }

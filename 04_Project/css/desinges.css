@@ -15,12 +15,13 @@
 
 .paper-description {
     margin: 10px 0;
+    font-size: larger;
 }
 
 .paper-content {
     margin: 10px -15px 0 -15px;
     padding: 10px 15px;
-    background-color:rgba(197, 197, 197, 0.658);
+    background-color:rgba(211, 211, 211, 0.658);
     overflow: hidden;
 }
 
